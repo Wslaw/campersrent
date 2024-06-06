@@ -1,0 +1,214 @@
+.list {
+  list-style: none;
+  max-width: 888px;
+  max-height: 1532px;
+}
+
+
+.campersList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.campersListItem {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border: 1px solid rgba(16, 24, 40, 0.2);
+  border-radius: 20px;
+  padding: 0 24px;
+  width: 100%;
+  min-height: 358px;
+}
+
+.container {
+  width: 290px;
+  height: 310px;
+  overflow: hidden;
+  background-size: cover; 
+  background-position: center; 
+  border-radius: 10px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+  width: 526px;
+  height: 310px;
+  gap: 24px;
+}
+.footerDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  stroke: #000;
+  fill: transparent;
+    cursor: pointer;
+
+}
+
+.euro {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+  color: var(--main);
+}
+
+.text {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+  color: var(--main);
+}
+
+.footDescTop {
+      display: flex;
+  justify-content: space-between;
+}
+
+.reviews{
+    display: flex;
+    align-items: center;
+    width: 526px;
+    height: 20px;
+    /* background-color: aqua; */
+    color: red;
+    gap: 16px;
+}
+.iconStar{
+    width: 16px;
+    height: 16px;
+}
+
+.iconLocation{
+    width: 16px;
+    height: 16px;
+    stroke: var(--main);
+    fill: transparent;
+}
+.textRew{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: var(--main);
+
+}
+.textLocation{
+color: var(--main);
+}
+
+.textSupport{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: var(--text);
+}
+.star{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.location{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.middleDescription {
+    width: 525px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.downDescription{
+mix-blend-mode: multiply;
+    width: 526px;
+height: 96px;
+display: flex;
+flex-wrap: wrap;
+gap: 7px;
+}
+
+.btn{
+  border: none;
+       border-radius: 200px;
+padding: 16px 40px;
+width: 166px;
+height: 56px;
+background: var(--button);
+}
+
+.btn:hover{
+background: #d84343;
+}
+
+.btnDescription{
+  border: none;
+    border-radius: 100px;
+padding: 12px 18px;
+width: 126px;
+height: 44px;
+background: var(--block-features);
+mix-blend-mode: multiply;
+text-align: center;
+display: flex;
+gap: 8px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.span{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 125%;
+text-align: center;
+color: var(--main);
+}
+
+.iconDown{
+    width: 20px;
+    height: 20px;
+}
+
+.iconTransmission,
+.iconFood,
+.iconBed
+{
+     width: 20px;
+    height: 20px;
+    fill: transparent;
+    stroke: var(--main);
+}
+
+
+.iconHeart {
+  stroke: #fff; 
+  cursor: pointer;
+}
+

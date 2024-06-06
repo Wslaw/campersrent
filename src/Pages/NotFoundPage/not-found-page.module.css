@@ -1,0 +1,28 @@
+.container{
+    height: 100vh;
+    background-image: url(../../assets/img/pngwing.com\ \(10\).png);
+ background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.title{display: flex;
+    font-family: Inter,serif;
+    font-size: 40px;
+justify-content: center;  
+  margin:  0 auto;
+    padding: 200px 0 45px;
+color: rgb(245, 230, 230);}
+
+
+.link{
+    font-family: Inter,serif;
+    margin-left: 600px;
+padding: 5px 10px;
+border: none;
+border-radius: 25px;
+background-color: rgb(216, 225, 173);
+}
+
+.link:hover{
+box-shadow: 1px 2px 5px;
+}

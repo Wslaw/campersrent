@@ -1,0 +1,50 @@
+
+
+
+.container {
+    padding: 50px 0;
+    background-image: url(../../assets/img/pngwing.com\ \(9\).png); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    padding-top: 10px;
+    letter-spacing: 20px;
+    text-align: center;
+    font-family: Inter, serif;
+    font-weight: 400;
+    font-size: 38px;
+    color: #d3ec70;
+}
+
+.wrap {
+    display: flex;
+    gap: 260px;
+    margin-top: 20px;
+}
+
+.img {
+    background-image: url(../../assets/img/camp9.jpg);
+        background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    width: 600px;
+    height: auto;
+    margin-left: 50px;
+border-radius: 25px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #60750b; 
+    gap: 8px;
+}
+
+

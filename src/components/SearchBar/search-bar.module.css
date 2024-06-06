@@ -1,0 +1,58 @@
+.sectionSearchBar{
+    width: 360px;
+   
+}
+.sbLoc {
+  position: relative; 
+}
+.locationText{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: rgba(16, 24, 40, 0.6);
+
+}
+.inputWrapper {
+  margin-top: 8px;
+  margin-bottom: 32px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  outline: none;
+}
+
+.iconLocation {
+    width: 18px;
+    height: 20px;
+    fill: transparent;
+  position: absolute;
+  left: 10px; 
+  pointer-events: none; 
+}
+
+
+.location {
+    border: none; 
+    border-radius: 10px;
+    padding: 18px 21.8px 18px 18px;
+    max-width: 360px;
+    width: 100%;
+    max-height: 56px;
+    background: var(--inputs);
+    padding-left: 40px; 
+    outline: none;
+}
+.filterText{
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: var(--text);
+}
+
+.sbVehicle{
+  margin-top: 14px;
+}

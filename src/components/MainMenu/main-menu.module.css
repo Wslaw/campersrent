@@ -1,0 +1,89 @@
+
+
+.container {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #acd0ef;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1000; 
+}
+.logo {margin-left: 16px;
+  background: linear-gradient(to right, #f7c1ae, #dee522, #e1e84f, #b0e3ef, #dee556, #ff7e5f);
+  cursor: pointer;
+  display: flex;
+  gap: 4px;
+  border: 1px solid #84a2d7;
+  padding: 0 4px;
+  border-radius: 8px;
+  align-items: center;
+}
+.logo:hover {
+  box-shadow: 2px 2px 4px 2px #1539b3;
+}
+
+.logoTitle {
+  background: linear-gradient(to right, #b3f0f8, #e1e84f, #b0e3ef, #dee556);
+  border-radius: 5px;
+  padding: 2px 3px;
+  border: 1px solid #718be0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 125%;
+  color: #1539b3;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+
+}
+
+.iconCamper {
+  width: 23px;
+  height: 24px;
+  fill: #1768f4;
+}
+
+.link {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #1539b3;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.link:global(.active) {
+  color: rgb(144, 34, 218);
+}
+
+.link:hover {
+  color: rgb(92, 92, 231);
+}
+
+.linkRegister,
+.linkLogin {
+  margin-left: 5px;
+  border-radius: 5px;
+  padding: 4px 10px;
+  gap: 5px;
+  border: 1px solid #84a2d766;
+  cursor: pointer;
+}
+.linkLogin{
+ padding: 4px 15px;
+
+}
+
+.linkRegister:hover,
+.linkLogin:hover {
+  border: 1px solid #5286df;
+  background-color: #5286df;
+}
+.linkRegister{margin-right: 16px;}

@@ -1,0 +1,43 @@
+.features {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.featuresList {
+  list-style: none;
+  padding: 0;
+}
+
+.featureItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.featureLabel {
+  font-weight: bold;
+}
+
+.vehicleDetails {
+  margin-top: 20px;
+}
+
+.detailsTitle {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.detailsList {
+  list-style: none;
+  padding: 0;
+}
+
+.detailsList li {
+  margin-bottom: 6px;
+}
+
+.detailsList span {
+  margin-left: 10px;
+}

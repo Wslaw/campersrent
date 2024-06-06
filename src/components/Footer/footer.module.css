@@ -1,0 +1,42 @@
+.footer {
+  font-family: Inter, serif;
+  background-color: #a7c8cd;
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 75px;
+}
+
+.contactInfo, .contactInfo2 {
+  text-align: center;
+  padding: 10px;
+}
+
+.map {
+  margin: 20px 0;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #007bff;
+}
+
+.social{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
